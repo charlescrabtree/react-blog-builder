@@ -33,3 +33,5 @@ _Please remember to deploy your main branch on Netlify and open a PR for a previ
 | State variables are setters are passed as props to Editor.js     | 2      |
 | Editor correctly updates state variables when each input changes | 2      |
 | Preview correctly displays updated state                         | 2      |
+
+### Adding something so I can create a pull request
