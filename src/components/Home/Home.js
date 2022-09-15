@@ -27,8 +27,8 @@ export default function Home() {
         title={title} setTitle={setTitle}
         subtitle={subtitle} setSubtitle={setSubtitle}
         font={font} setFont={setFont}
+        align={align} setAlign={setAlign}
         setText={setText}
-
       />
     </main>
   );
