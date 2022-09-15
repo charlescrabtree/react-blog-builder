@@ -10,6 +10,8 @@ export default function Home() {
   const [title, setTitle] = useState('default state');
   const [subtitle, setSubtitle] = useState('default state');
   const [font, setFont] = useState('roboto-mono');
+  const [align, setAlign] = useState('center');
+
   return (
     <main>
       {/* pass the state variables as props to the presentational components */}
@@ -17,11 +19,13 @@ export default function Home() {
         title={title}
         subtitle={subtitle}
         font={font}
+        align={align}
       />
       <Editor 
         title={title} setTitle={setTitle}
         subtitle={subtitle} setSubtitle={setSubtitle}
         font={font} setFont={setFont}
+
       />
     </main>
   );
