@@ -11,6 +11,7 @@ export default function Home() {
   const [subtitle, setSubtitle] = useState('default state');
   const [font, setFont] = useState('roboto-mono');
   const [align, setAlign] = useState('center');
+  const [text, setText] = useState('');
 
   return (
     <main>
@@ -20,11 +21,13 @@ export default function Home() {
         subtitle={subtitle}
         font={font}
         align={align}
+        text={text}
       />
       <Editor 
         title={title} setTitle={setTitle}
         subtitle={subtitle} setSubtitle={setSubtitle}
         font={font} setFont={setFont}
+        setText={setText}
 
       />
     </main>
