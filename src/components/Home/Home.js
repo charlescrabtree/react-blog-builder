@@ -7,8 +7,8 @@ import './Home.css';
 
 export default function Home() {
   // add useState calls here for title, subtitle, font, align, and text
-  const [title, setTitle] = useState('default state');
-  const [subtitle, setSubtitle] = useState('default state');
+  const [title, setTitle] = useState('');
+  const [subtitle, setSubtitle] = useState('');
   const [font, setFont] = useState('roboto-mono');
   const [align, setAlign] = useState('center');
   const [text, setText] = useState('');
